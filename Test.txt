@@ -1,0 +1,28 @@
+import random
+from expyriment import design, control, stimuli
+
+WHITE = (255,255,255)
+RED = (255,0,0)
+YELLOW = (255,255,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+
+WORDSLIST = ["YELLOW", "RED", "BLUE", "GREEN"]
+WORDSLIST = WORDSLIST * 5
+COLORLIST = [YELLOW,RED,BLUE,GREEN]
+COLORLIST = COLORLIST * 5
+
+COHERENTLIST = []
+for i in range (20):
+    i = stimuli.TextLine(WORDSLIST[i],position=(0,0),text_size=50,text_colour=COLORLIST[i])
+    COHERENTLIST.append(i)
+
+INCOHERENTLIST = []
+for k in range (20) :
+    a = random.randint(0,19)
+    if a == k or a == k+4 or a == k+8 or a == k+12 or a == k+16 or a == k+20 :
+        a = a + 1
+    k = stimuli.TextLine(WORDSLIST[k],position=(0,0),text_size=50,text_colour=COLORLIST[a])
+    INCOHERENTLIST.append(k)
+TARGETLIST = COHERENTLIST + INCOHERENTLIST
+print (TARGETLIST)
