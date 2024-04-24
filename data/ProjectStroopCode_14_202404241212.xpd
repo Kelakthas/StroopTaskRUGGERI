@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed Apr 24 2024 12:12:35
+#--EXPERIMENT INFO
+#e mainfile: ProjectStroopCode.py
+#e sha1: 9ebf76
+#e modules: 
+#e Experiment: Stroop Task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 14
+subject_id,trial,TARGET,respkey,RT
+14,0,YELLOW,"(255, 255, 0)",121,778
+14,1,RED,"(0, 255, 0)",103,1450

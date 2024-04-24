@@ -1,0 +1,16 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed Apr 24 2024 11:49:42
+#--EXPERIMENT INFO
+#e mainfile: ProjectStroopCode.py
+#e sha1: fe5ead
+#e modules: 
+#e Experiment: Stroop Task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 3
+subject_id,trial,TARGET,respkey,RT
+3,0,<expyriment.stimuli._textline.TextLine object at 0x0000026F5F0BD488>,114,640
+3,1,<expyriment.stimuli._textline.TextLine object at 0x0000026F6A930FC8>,98,715
+3,2,<expyriment.stimuli._textline.TextLine object at 0x0000026F6A934588>,98,837
+3,3,<expyriment.stimuli._textline.TextLine object at 0x0000026F5F0BD0C8>,98,649
+3,4,<expyriment.stimuli._textline.TextLine object at 0x0000026F6A930D48>,103,668
