@@ -1,0 +1,11 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:00:22
+#sha1: e235e5
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+232,stderr,received,'Traceback (most recent call last):'
+232,stderr,received,'  File "ProjectStroopCode.txt", line 57, in <module>'
+233,stderr,received,'    keyboard = expyriment.io.Keyboard(expyriment.misc.constants.K_b, expyriment.misc.constants.K_g,expyriment.misc.constants.K_r,expyriment.misc.constants.K_y)'
+233,stderr,received,'TypeError: __init__() takes from 1 to 2 positional arguments but 5 were given'

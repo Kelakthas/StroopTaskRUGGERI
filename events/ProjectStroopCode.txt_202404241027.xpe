@@ -1,0 +1,25 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:27:25
+#sha1: b337bb
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+271,stderr,received,'Traceback (most recent call last):'
+271,stderr,received,'  File "ProjectStroopCode.txt", line 67, in <module>'
+272,stderr,received,'    instructions.present()'
+272,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1188, in present'
+273,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+274,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1076, in preload'
+275,stderr,received,'    self._get_surface(),'
+275,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+276,stderr,received,'    tmp = self._create_surface()'
+276,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_textscreen.py", line 493, in _create_surface'
+277,stderr,received,'    surface.blit(box._get_surface(),'
+277,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+279,stderr,received,'    tmp = self._create_surface()'
+279,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_textbox.py", line 347, in _create_surface'
+280,stderr,received,'    self.text_justification)'
+280,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_textbox.py", line 421, in render_textrect'
+281,stderr,received,'    "Once word-wrapped," +'
+282,stderr,received,'Exception: Once word-wrapped,the text string was too tall to fit in the rect.'

@@ -1,0 +1,14 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:05:10
+#sha1: 2c9e07
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+247,Stimulus,presented,40
+1530,Stimulus,presented,25
+2818,Keyboard,received,108,wait
+2818,stderr,received,'Traceback (most recent call last):'
+2818,stderr,received,'  File "ProjectStroopCode.txt", line 67, in <module>'
+2819,stderr,received,'    if keyboard.check (keys != responses_autorisees):'
+2819,stderr,received,"NameError: name 'keys' is not defined"

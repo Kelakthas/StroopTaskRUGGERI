@@ -1,0 +1,33 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 10 2024 10:25:18
+#sha1: 4c4196
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+4841,Stimulus,presented,4
+6062,Stimulus,presented,1
+7201,Keyboard,received,32,wait
+7239,Stimulus,presented,4
+9150,Stimulus,presented,2
+9971,Keyboard,received,32,wait
+10012,Stimulus,presented,4
+11787,Stimulus,presented,3
+12515,Keyboard,received,32,wait
+12558,Stimulus,presented,4
+14398,Stimulus,presented,0
+14891,Keyboard,received,32,wait
+14932,Stimulus,presented,4
+16865,Stimulus,presented,2
+26868,Keyboard,received,None,wait
+26919,Stimulus,presented,4
+27971,Stimulus,presented,3
+37973,Keyboard,received,None,wait
+38017,Stimulus,presented,4
+39836,Stimulus,presented,1
+49107,Keyboard,received,32,wait
+49152,Stimulus,presented,4
+50419,Stimulus,presented,0
+50967,Keyboard,received,32,wait
+50967,Experiment,ended
+50983,Stimulus,presented,6

@@ -1,0 +1,25 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 10:32:11
+#sha1: db6033
+#modules: 
+#display: size=(800, 600), window_mode=True, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+250,stderr,received,'Traceback (most recent call last):'
+250,stderr,received,'  File "ProjectStroopCode.txt", line 65, in <module>'
+250,stderr,received,'    instruction_screen.present()'
+250,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1188, in present'
+251,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+251,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1076, in preload'
+252,stderr,received,'    self._get_surface(),'
+252,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+253,stderr,received,'    tmp = self._create_surface()'
+253,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_textscreen.py", line 493, in _create_surface'
+254,stderr,received,'    surface.blit(box._get_surface(),'
+254,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 495, in _get_surface'
+255,stderr,received,'    tmp = self._create_surface()'
+255,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\stimuli\\_textbox.py", line 341, in _create_surface'
+256,stderr,received,"    _text = byte2unicode(self.text).encode('latin-1')"
+256,stderr,received,'  File "C:\\Users\\randy\\anaconda3\\envs\\expyriment\\lib\\site-packages\\expyriment\\misc\\_miscellaneous.py", line 120, in byte2unicode'
+258,stderr,received,'    u = s.decode(LOCALE_ENC)'
+258,stderr,received,"AttributeError: 'TextScreen' object has no attribute 'decode'"

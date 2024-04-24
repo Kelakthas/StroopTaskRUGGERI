@@ -1,0 +1,35 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 11:55:18
+#sha1: a69a0e
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10621,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10621,design,logged,
+10621,Experiment,started
+10664,Stimulus,presented,43
+11668,Keyboard,received, ,wait_char
+11703,Stimulus,presented,40
+13393,Stimulus,presented,26
+14467,Keyboard,received,114,wait
+14501,Stimulus,presented,40
+16243,Stimulus,presented,11
+17034,Keyboard,received,103,wait
+17067,Stimulus,presented,40
+18752,Stimulus,presented,30
+19758,Keyboard,received,103,wait
+19791,Stimulus,presented,40
+21336,Stimulus,presented,15
+21939,Keyboard,received,103,wait
+21972,Stimulus,presented,40
+23145,Stimulus,presented,1
+24212,Keyboard,received,114,wait
+24213,stderr,received,'Traceback (most recent call last):'
+24213,stderr,received,'  File "ProjectStroopCode.py", line 72, in <module>'
+24213,stderr,received,'    exp.data.add([i_trial,WORDSLIST[i_trial], COLORLIST[i_trial],key,rt])'
+24213,stderr,received,'IndexError: list index out of range'
+24222,Data,saved

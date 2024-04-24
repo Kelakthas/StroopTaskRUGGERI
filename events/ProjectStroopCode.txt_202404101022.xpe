@@ -1,0 +1,14 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 10 2024 10:22:33
+#sha1: 84f95d
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+4871,Stimulus,presented,4
+6668,Stimulus,presented,1
+8670,Keyboard,received,None,wait
+8671,stderr,received,'Traceback (most recent call last):'
+8671,stderr,received,'  File "ProjectStroopCode.txt", line 51, in <module>'
+8671,stderr,received,'    exp.data.add([i_trial, waiting_time, key, rt])'
+8672,stderr,received,"AttributeError: 'NoneType' object has no attribute 'add'"

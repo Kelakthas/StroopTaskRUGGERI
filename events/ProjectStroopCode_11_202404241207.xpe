@@ -1,0 +1,32 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed Apr 24 2024 12:07:44
+#sha1: ce25a3
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10152,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10152,design,logged,
+10152,Experiment,started
+10197,Stimulus,presented,43
+10728,Keyboard,received, ,wait_char
+10763,Stimulus,presented,40
+12528,Stimulus,presented,31
+13785,Keyboard,received,114,wait
+13818,Stimulus,presented,40
+15790,Stimulus,presented,5
+16412,Keyboard,received,114,wait
+16445,Stimulus,presented,40
+18116,Stimulus,presented,14
+18853,Keyboard,received,98,wait
+18886,Stimulus,presented,40
+19965,Stimulus,presented,36
+20289,Experiment,paused
+20294,Stimulus,presented,44
+21219,Keyboard,received,y,wait_char
+21220,Experiment,ended
+21241,Data,saved
+21245,Stimulus,presented,44
