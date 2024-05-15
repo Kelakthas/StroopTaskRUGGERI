@@ -1,0 +1,35 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:33:51
+#sha1: 26f0cd
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10393,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,Colour de la target,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10393,design,logged,
+10393,Experiment,started
+10458,Stimulus,presented,43
+11323,Keyboard,received, ,wait_char
+11367,Stimulus,presented,40
+12587,Stimulus,presented,11
+13499,Keyboard,received,103,wait
+13540,Stimulus,presented,40
+14690,Stimulus,presented,19
+15482,Keyboard,received,103,wait
+15523,Stimulus,presented,40
+17475,Stimulus,presented,22
+18462,Keyboard,received,103,wait
+18504,Stimulus,presented,40
+19778,Stimulus,presented,8
+20748,Keyboard,received,121,wait
+20791,Stimulus,presented,40
+21954,Stimulus,presented,6
+22183,Experiment,paused
+22189,Stimulus,presented,44
+22868,Keyboard,received,y,wait_char
+22868,Experiment,ended
+22892,Data,saved
+22898,Stimulus,presented,44

@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:17:44
+#sha1: 2feb26
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10989,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,Colour de la target,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10989,design,logged,
+10989,Experiment,started
+11056,Stimulus,presented,43
+11859,Keyboard,received, ,wait_char
+11907,Stimulus,presented,40
+13556,Stimulus,presented,27
+14890,Keyboard,received,98,wait
+14890,stderr,received,'Traceback (most recent call last):'
+14890,stderr,received,'  File "ProjectStroopCode.py", line 73, in <module>'
+14891,stderr,received,'    exp.design.save("DataSujetnumero1")'
+14891,stderr,received,"AttributeError: 'Experiment' object has no attribute 'design'"
+14904,Data,saved

@@ -1,0 +1,19 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 11:28:00
+#sha1: e1c5fb
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10078,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,Colour de la target,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10078,design,logged,
+10078,Experiment,started
+10143,Stimulus,presented,19
+11083,Keyboard,received, ,wait_char
+11083,stderr,received,'Traceback (most recent call last):'
+11083,stderr,received,'  File "ProjectStroopCode.py", line 71, in <module>'
+11084,stderr,received,'    for i_trial in range(LISTETOTAL):'
+11084,stderr,received,"TypeError: 'list' object cannot be interpreted as an integer"

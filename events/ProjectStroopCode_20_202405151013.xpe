@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:13:34
+#sha1: f39ccf
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10767,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,Colour de la target,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10767,design,logged,
+10767,Experiment,started
+10832,Stimulus,presented,43
+11619,Keyboard,received, ,wait_char
+11666,Stimulus,presented,40
+13258,Stimulus,presented,13
+13999,Keyboard,received,114,wait
+14000,stderr,received,'Traceback (most recent call last):'
+14000,stderr,received,'  File "ProjectStroopCode.py", line 73, in <module>'
+14000,stderr,received,'    exp.rename("DataSujetnumero1")'
+14000,stderr,received,"AttributeError: 'Experiment' object has no attribute 'rename'"
+14011,Data,saved

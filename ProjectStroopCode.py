@@ -20,26 +20,31 @@ exp = design.Experiment(name="Stroop Task", text_size=40)
 #control.set_develop_mode(on=True)
 control.initialize(exp)
 
+DICT = {"RED":RED, "YELLOW": YELLOW,"GREEN":GREEN,"BLUE":BLUE}
 WORDSLIST = ["YELLOW", "RED", "BLUE", "GREEN"]
-WORDSLIST5 = WORDSLIST * 5
-COLORLIST = [YELLOW,RED,BLUE,GREEN]
-COLORLIST5 = COLORLIST * 5
 
-COHERENTLIST = []
-for i in range (20):
-    i = stimuli.TextLine(WORDSLIST5[i],position=(0,0),text_size=50,text_colour=COLORLIST5[i])
-    COHERENTLIST.append(i)
+LISTECOHERENT = []
+LISTEINCOHERENT = []
+for i in WORDSLIST:
+    for j in WORDSLIST:
+        if i == j:
+            LISTECOHERENT.append((i,j))
+        else:
+            LISTEINCOHERENT.append((i,j))
 
-INCOHERENTLIST = []
-for k in range (20) :
-    a = random.randint(0,19)
-    if a%4 == k%4 :
-        a = a + 1
-    k = stimuli.TextLine(WORDSLIST5[k],position=(0,0),text_size=50,text_colour=COLORLIST5[a])
-    INCOHERENTLIST.append(k)
+LISTE1 = []
+for i, j in LISTEINCOHERENT:
+    z = stimuli.TextLine(i,position=(0,0),text_size=50,text_colour=DICT[j])
+    LISTE1.append((z, i, j))
 
-TARGETLIST = COHERENTLIST + INCOHERENTLIST
-random.shuffle(TARGETLIST)
+LISTE2 = []
+for i, j in LISTECOHERENT:
+    w = stimuli.TextLine(i,position=(0,0),text_size=50,text_colour=DICT[j])
+    LISTE2.append((w, i, j))
+
+LISTE2 = LISTE2 * 3
+LISTETOTAL = LISTE1 + LISTE2
+random.shuffle(LISTETOTAL)
 
 blankscreen = stimuli.BlankScreen()
 
@@ -63,12 +68,12 @@ instruction_screen = expyriment.stimuli.TextScreen("Instructions", instruction_t
 instruction_screen.present()
 exp.keyboard.wait_char(" ")
 
-for i_trial in range(N_TRIALS):
+for i, (stimulus, mot, couleur) in enumerate(LISTETOTAL):
     blankscreen.present()
     waiting_time = random.randint(MIN_WAIT_TIME, MAX_WAIT_TIME)
     exp.clock.wait(waiting_time)
-    TARGETLIST[i_trial].present()
+    stimulus.present()
     key, rt = exp.keyboard.wait([expyriment.misc.constants.K_b, expyriment.misc.constants.K_g,expyriment.misc.constants.K_r,expyriment.misc.constants.K_y],duration=MAX_RESPONSE_DELAY)
-    exp.data.add([i_trial,TARGETLIST[i_trial].text, TARGETLIST[i_trial].text_colour,key,rt])
+    exp.data.add([i, mot, couleur,key,rt])
 
 control.end()

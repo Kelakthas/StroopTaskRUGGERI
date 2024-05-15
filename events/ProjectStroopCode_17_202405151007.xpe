@@ -1,0 +1,23 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpe-file, coding: cp1252
+#date: Wed May 15 2024 10:07:09
+#sha1: 195ed7
+#modules: 
+#display: size=(1920, 1080), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='Kelakthas', release='10', version='10.0.22621', machine='AMD64', processor='AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD')
+Time,Type,Event,Value,Detail,Detail2
+10278,design,log,
+#design: #exp: Stroop Task
+#design: #dvn: trial,TARGET,Colour de la target,respkey,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+10278,design,logged,
+10278,Experiment,started
+10343,Stimulus,presented,43
+11171,Keyboard,received, ,wait_char
+11219,Stimulus,presented,40
+12849,Stimulus,presented,16
+13524,Keyboard,received,121,wait
+13535,stderr,received,'Traceback (most recent call last):'
+13535,stderr,received,'  File "ProjectStroopCode.py", line 74, in <module>'
+13536,stderr,received,'    exp_data.save(nom_fichier)'
+13536,stderr,received,"NameError: name 'exp_data' is not defined"
+13546,Data,saved
