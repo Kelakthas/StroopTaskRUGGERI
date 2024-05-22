@@ -1,0 +1,13 @@
+#Expyriment 0.10.0 (Python 3.7.16), .xpd-file, coding: cp1252
+#date: Wed May 22 2024 10:45:52
+#--EXPERIMENT INFO
+#e mainfile: ProjectStroopCode.py
+#e sha1: bf14b1
+#e modules: 
+#e Experiment: Stroop Task
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 31
+subject_id,trial,TARGET,Colour de la target,respkey,RT
+31,0,YELLOW,YELLOW,108,6488
+31,1,YELLOW,BLUE,102,510

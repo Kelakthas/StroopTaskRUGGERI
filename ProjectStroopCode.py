@@ -11,18 +11,19 @@ YELLOW = (255,255,0)
 GREEN = (0,255,0)
 BLUE = (0,0,255)
 
-N_TRIALS = 40
+N_TRIALS = 24
 MIN_WAIT_TIME = 1000
 MAX_WAIT_TIME = 2000
 MAX_RESPONSE_DELAY = 10000
 
 exp = design.Experiment(name="Stroop Task", text_size=40)
-#control.set_develop_mode(on=True)
 control.initialize(exp)
 
 DICT = {"RED":RED, "YELLOW": YELLOW,"GREEN":GREEN,"BLUE":BLUE}
-WORDSLIST = ["YELLOW", "RED", "BLUE", "GREEN"]
+WORDSLIST = list(DICT.keys())
 
+#Ici, on cree deux listes : une liste coherente contenant les stimuli dont le mot correspond a la couleur du mot, par exemple red ecrit en red
+#Et une liste incoherente dont les mots ne correspondent pas a la couleur du mot, par exemple red ecrit en green
 LISTECOHERENT = []
 LISTEINCOHERENT = []
 for i in WORDSLIST:
@@ -48,6 +49,7 @@ random.shuffle(LISTETOTAL)
 
 blankscreen = stimuli.BlankScreen()
 
+#Voila les instructions presentees aux sujets avant d'effectuer l'experience
 instruction_text = f'''Words of differents colors will appear on the screen. 
     Your task is to recognize the color of the word as quickly as possible.
     We measure the reaction time.
